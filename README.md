@@ -34,7 +34,6 @@ An intelligent web application that lets you **upload PDF, Word, or scanned imag
 ---
 
 ## 📂 Folder Structure
----
 DOCSEARCH/
 │
 ├── docsearch/                  # Django core project
