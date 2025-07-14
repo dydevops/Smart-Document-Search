@@ -37,33 +37,34 @@ An intelligent web application that lets you **upload PDF, Word, or scanned imag
 
 DOCSEARCH/
 │
-├── docsearch/ # Django core project
-│ ├── init.py
-│ ├── asgi.py
-│ ├── celery.py # Celery app definition
-│ ├── settings.py
-│ ├── urls.py
-│ └── wsgi.py
+├── docsearch/                  # Django core project
+│   ├── __init__.py
+│   ├── asgi.py
+│   ├── celery.py               # Celery app definition
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
 │
-├── search/ # Core app for document handling
-│ ├── models.py
-│ ├── views.py
-│ ├── tasks.py # Celery background jobs
-│ ├── utils.py # OCR, embedding logic
-│ └── ...
+├── search/                     # Core app for document handling
+│   ├── models.py
+│   ├── views.py
+│   ├── tasks.py                # Celery background jobs
+│   ├── utils.py                # OCR, embedding logic
+│   └── ...
 │
 ├── templates/
-│ └── search/
-│ └── base.html # HTML UI
+│   └── search/
+│       └── base.html           # HTML UI
 │
-├── static/ # Bootstrap or custom CSS/JS
-├── faiss_index/ # Stores FAISS vector indexes
-├── media/ # Uploaded user documents
-├── .env # Environment variables
-├── db.sqlite3 # Local development DB
+├── static/                     # Bootstrap or custom CSS/JS
+├── faiss_index/                # Stores FAISS vector indexes
+├── media/                      # Uploaded user documents
+├── .env                        # Environment variables
+├── db.sqlite3                  # Local development DB
 ├── manage.py
 ├── README.md
 └── requirements.txt
+
 
 
 ---
